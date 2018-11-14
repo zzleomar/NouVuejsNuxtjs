@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1 id="titleTxt">Hola vuejs</h1>
+    <input type="text" id="title" value="Hola vuejs">
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $( "#title" ).change(function() {
+            $('#titleTxt').text($("#title").val());
+    });
+</script>
+</html>
