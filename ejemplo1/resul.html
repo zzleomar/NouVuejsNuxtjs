@@ -19,6 +19,17 @@
         data: {
             title: "Hola Vue!"
         },
+        created() {
+            console.log("created");
+        },
+        mounted() {
+            console.log("mounted");
+        },
+        watch:{
+            title (newtitle,oldtitle){
+                console.log('watch',newtitle)
+            }
+        }
     })
 </script>
 </html>

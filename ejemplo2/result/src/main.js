@@ -8,6 +8,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 Vue.config.productionTip = false
 
+require('vue2-animate/dist/vue2-animate.min.css')
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

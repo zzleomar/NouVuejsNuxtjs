@@ -3,6 +3,7 @@
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
             <el-menu-item index="/">Home</el-menu-item>
             <el-menu-item index="/component">Component</el-menu-item>
+            <el-menu-item index="/newcomponent">NewComponent</el-menu-item>
         </el-menu>
     </div>
 </template>

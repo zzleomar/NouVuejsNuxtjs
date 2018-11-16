@@ -3,7 +3,7 @@
 		<b-field label="Name" :type="nameValidate">
             <b-input v-model="name"></b-input>
         </b-field>
-
+		<div v-if="name!=''">{{ 'hola '+name }}</div>
         <b-field label="Email" :type="emailValidate">
             <b-input placeholder="Email" v-model="email" type="email"></b-input>
         </b-field>
